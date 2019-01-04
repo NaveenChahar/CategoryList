@@ -1,12 +1,12 @@
-[
+{
 “vegetables”:[
 {“name”:”Radish”},
 {“name”:”Carrot”},
-{“name”:”Onion”},
+{“name”:”Onion”}
 ],
 “fruits”:[
 {“name”:”tomato”},
 {“name”:”apple"},
-{“name”:”banana”},
+{“name”:”banana”}
 ]
-]
+}
