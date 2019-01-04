@@ -1,0 +1,12 @@
+[
+“vegetables”:{
+“name”:”Radish”,
+“name”:”Carrot”,
+“name”:”Onion”,
+},
+“fruits”:{
+“name”:”tomato”,
+“name”:”apple”,
+“name”:”banana”,
+}
+]
