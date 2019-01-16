@@ -1,12 +1,775 @@
+const obj=[
+    {
+    categoryId:'1',
+    categoryName:"Fruits & vegetables",
+    subcategory:[{
+    subcategoryId:'1a',
+    subcategoryName:'Fruits Vegetables',
+    products:[
+    
+    {
+    productName:'Potato & Onion',
+    productId:'11',
+    subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+    {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+    {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+    {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+    {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+    
+    ]},{
+    productName:'Cucumber & Capsicum',
+    productId:'12',
+    subProducts:[
+    {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+    {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+    {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+    {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+    {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+    
+    ]},
+    {
+        productName:'Beans, Brinjals & Okra',
+        productId:'13',
+        subProducts:[{subproductsID:'32',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'33',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'34',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'35',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'36',subproductName:'Alebela Potato',price:'7'}
+        
+        ]},
+    
+        {
+            productName:'Root Vegetables',
+            productId:'14',
+            subProducts:[{subproductsID:'37',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'38',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'39',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'40',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'41',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},
+        
+    {
+        productName:'Beans, Brinjals & Okra',
+        productId:'15',
+        subProducts:[{subproductsID:'42',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'43',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'44',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'45',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'46',subproductName:'Alebela Potato',price:'7'}
+        
+        ]},
+    
+        {
+            productName:'Beans, Brinjals & Okra',
+            productId:'16',
+            subProducts:[{subproductsID:'4',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'33',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'34',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'35',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'36',subproductName:'Alebela Potato',price:'7'}
+            
+            ]}]
+    },
+    {
+        subcategoryId:'1b',
+        subcategoryName:'Herbal And Seasoning',
+        products:[
+        
+        {
+        productName:'Lemon , Ginger & Garlic',
+        productId:'11',
+        subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+        
+        ]},{
+        productName:'Indian & Exotic Herb',
+        productId:'12',
+        subProducts:[
+        {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+        
+        ]}]
+        },
+        {
+            subcategoryId:'1c',
+            subcategoryName:'Fresh Fruits',
+            products:[
+            
+            {
+            productName:'Banana, Sapota & Papaya',
+            productId:'11',
+            subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},{
+            productName:'Kiwi, Melon, Citrus Fruit',
+            productId:'12',
+            subProducts:[
+            {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},
+            {
+                productName:'Banana, Sapota & Papaya',
+                productId:'11',
+                subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},{
+                productName:'Kiwi, Melon, Citrus Fruit',
+                productId:'12',
+                subProducts:[
+                {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},
+                {
+                    productName:'Banana, Sapota & Papaya',
+                    productId:'11',
+                    subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},{
+                    productName:'Mangoes',
+                    productId:'12',
+                    subProducts:[
+                    {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},
+                    {
+                        productName:'Fruit Baskets',
+                        productId:'12',
+                        subProducts:[
+                        {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                        {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                        {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                        {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                        {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                        
+                        ]}
+            ]
+            },
 {
-"vegetables":[
-{"name":"Radish"},
-{"name":"Carrot"},
-{"name":"Onion"}
-],
-"fruits":[
-{"name":"tomato"},
-{"name":"apple"},
-{"name":"banana"}
+            subcategoryId:'1d',
+            subcategoryName:'Fresh Fruits',
+            products:[
+            
+            {
+            productName:'Banana, Sapota & Papaya',
+            productId:'11',
+            subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},{
+            productName:'Kiwi, Melon, Citrus Fruit',
+            productId:'12',
+            subProducts:[
+            {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},
+            {
+                productName:'Banana, Sapota & Papaya',
+                productId:'11',
+                subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},{
+                productName:'Kiwi, Melon, Citrus Fruit',
+                productId:'12',
+                subProducts:[
+                {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},
+                {
+                    productName:'Banana, Sapota & Papaya',
+                    productId:'11',
+                    subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},{
+                    productName:'Mangoes',
+                    productId:'12',
+                    subProducts:[
+                    {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},
+                    {
+                        productName:'Fruit Baskets',
+                        productId:'12',
+                        subProducts:[
+                        {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                        {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                        {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                        {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                        {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                        
+                        ]}
+            ]
+            }
+
+]
+},
+{
+    categoryId:'2',
+    categoryName:"Fruits & vegetables",
+    subcategory:[{
+    subcategoryId:'2a',
+    subcategoryName:'Fruits Vegetables',
+    products:[
+    
+    {
+    productName:'Potato & Onion',
+    productId:'11',
+    subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+    {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+    {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+    {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+    {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+    
+    ]},{
+    productName:'Cucumber & Capsicum',
+    productId:'12',
+    subProducts:[
+    {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+    {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+    {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+    {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+    {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+    
+    ]},
+    {
+        productName:'Beans, Brinjals & Okra',
+        productId:'13',
+        subProducts:[{subproductsID:'32',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'33',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'34',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'35',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'36',subproductName:'Alebela Potato',price:'7'}
+        
+        ]},
+    
+        {
+            productName:'Root Vegetables',
+            productId:'14',
+            subProducts:[{subproductsID:'37',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'38',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'39',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'40',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'41',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},
+        
+    {
+        productName:'Beans, Brinjals & Okra',
+        productId:'15',
+        subProducts:[{subproductsID:'42',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'43',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'44',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'45',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'46',subproductName:'Alebela Potato',price:'7'}
+        
+        ]},
+    
+        {
+            productName:'Beans, Brinjals & Okra',
+            productId:'16',
+            subProducts:[{subproductsID:'4',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'33',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'34',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'35',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'36',subproductName:'Alebela Potato',price:'7'}
+            
+            ]}]
+    },
+    {
+        subcategoryId:'2b',
+        subcategoryName:'Herbal And Seasoning',
+        products:[
+        
+        {
+        productName:'Lemon , Ginger & Garlic',
+        productId:'11',
+        subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+        
+        ]},{
+        productName:'Indian & Exotic Herb',
+        productId:'12',
+        subProducts:[
+        {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+        
+        ]}]
+        },
+        {
+            subcategoryId:'2c',
+            subcategoryName:'Fresh Fruits',
+            products:[
+            
+            {
+            productName:'Banana, Sapota & Papaya',
+            productId:'11',
+            subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},{
+            productName:'Kiwi, Melon, Citrus Fruit',
+            productId:'12',
+            subProducts:[
+            {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},
+            {
+                productName:'Banana, Sapota & Papaya',
+                productId:'11',
+                subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},{
+                productName:'Kiwi, Melon, Citrus Fruit',
+                productId:'12',
+                subProducts:[
+                {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},
+                {
+                    productName:'Banana, Sapota & Papaya',
+                    productId:'11',
+                    subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},{
+                    productName:'Mangoes',
+                    productId:'12',
+                    subProducts:[
+                    {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},
+                    {
+                        productName:'Fruit Baskets',
+                        productId:'12',
+                        subProducts:[
+                        {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                        {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                        {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                        {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                        {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                        
+                        ]}
+            ]
+            },
+{
+            subcategoryId:'2d',
+            subcategoryName:'Fresh Fruits',
+            products:[
+            
+            {
+            productName:'Banana, Sapota & Papaya',
+            productId:'11',
+            subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},{
+            productName:'Kiwi, Melon, Citrus Fruit',
+            productId:'12',
+            subProducts:[
+            {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},
+            {
+                productName:'Banana, Sapota & Papaya',
+                productId:'11',
+                subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},{
+                productName:'Kiwi, Melon, Citrus Fruit',
+                productId:'12',
+                subProducts:[
+                {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},
+                {
+                    productName:'Banana, Sapota & Papaya',
+                    productId:'11',
+                    subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},{
+                    productName:'Mangoes',
+                    productId:'12',
+                    subProducts:[
+                    {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},
+                    {
+                        productName:'Fruit Baskets',
+                        productId:'12',
+                        subProducts:[
+                        {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                        {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                        {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                        {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                        {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                        
+                        ]}
+            ]
+            }
+
 ]
 }
+,
+{
+    categoryId:'3',
+    categoryName:"Fruits & vegetables",
+    subcategory:[{
+    subcategoryId:'3a',
+    subcategoryName:'Fruits Vegetables',
+    products:[
+    
+    {
+    productName:'Potato & Onion',
+    productId:'11',
+    subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+    {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+    {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+    {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+    {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+    
+    ]},{
+    productName:'Cucumber & Capsicum',
+    productId:'12',
+    subProducts:[
+    {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+    {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+    {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+    {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+    {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+    
+    ]},
+    {
+        productName:'Beans, Brinjals & Okra',
+        productId:'13',
+        subProducts:[{subproductsID:'32',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'33',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'34',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'35',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'36',subproductName:'Alebela Potato',price:'7'}
+        
+        ]},
+    
+        {
+            productName:'Root Vegetables',
+            productId:'14',
+            subProducts:[{subproductsID:'37',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'38',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'39',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'40',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'41',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},
+        
+    {
+        productName:'Beans, Brinjals & Okra',
+        productId:'15',
+        subProducts:[{subproductsID:'42',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'43',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'44',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'45',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'46',subproductName:'Alebela Potato',price:'7'}
+        
+        ]},
+    
+        {
+            productName:'Beans, Brinjals & Okra',
+            productId:'16',
+            subProducts:[{subproductsID:'4',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'33',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'34',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'35',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'36',subproductName:'Alebela Potato',price:'7'}
+            
+            ]}]
+    },
+    {
+        subcategoryId:'3b',
+        subcategoryName:'Herbal And Seasoning',
+        products:[
+        
+        {
+        productName:'Lemon , Ginger & Garlic',
+        productId:'11',
+        subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+        
+        ]},{
+        productName:'Indian & Exotic Herb',
+        productId:'12',
+        subProducts:[
+        {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+        {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+        {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+        {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+        {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+        
+        ]}]
+        },
+        {
+            subcategoryId:'3c',
+            subcategoryName:'Fresh Fruits',
+            products:[
+            
+            {
+            productName:'Banana, Sapota & Papaya',
+            productId:'11',
+            subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},{
+            productName:'Kiwi, Melon, Citrus Fruit',
+            productId:'12',
+            subProducts:[
+            {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},
+            {
+                productName:'Banana, Sapota & Papaya',
+                productId:'11',
+                subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},{
+                productName:'Kiwi, Melon, Citrus Fruit',
+                productId:'12',
+                subProducts:[
+                {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},
+                {
+                    productName:'Banana, Sapota & Papaya',
+                    productId:'11',
+                    subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},{
+                    productName:'Mangoes',
+                    productId:'12',
+                    subProducts:[
+                    {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},
+                    {
+                        productName:'Fruit Baskets',
+                        productId:'12',
+                        subProducts:[
+                        {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                        {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                        {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                        {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                        {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                        
+                        ]}
+            ]
+            },
+{
+            subcategoryId:'3d',
+            subcategoryName:'Fresh Fruits',
+            products:[
+            
+            {
+            productName:'Banana, Sapota & Papaya',
+            productId:'11',
+            subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},{
+            productName:'Kiwi, Melon, Citrus Fruit',
+            productId:'12',
+            subProducts:[
+            {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+            {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+            {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+            {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+            {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+            
+            ]},
+            {
+                productName:'Banana, Sapota & Papaya',
+                productId:'11',
+                subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},{
+                productName:'Kiwi, Melon, Citrus Fruit',
+                productId:'12',
+                subProducts:[
+                {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                
+                ]},
+                {
+                    productName:'Banana, Sapota & Papaya',
+                    productId:'11',
+                    subProducts:[{subproductsID:'22',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'23',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'24',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'25',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'26',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},{
+                    productName:'Mangoes',
+                    productId:'12',
+                    subProducts:[
+                    {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                    {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                    {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                    {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                    {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                    
+                    ]},
+                    {
+                        productName:'Fruit Baskets',
+                        productId:'12',
+                        subProducts:[
+                        {subproductsID:'27',subproductName:'Kashmeeri Onion',price:'2'},
+                        {subproductsID:'28',subproductName:'Washington Onion',price:'4'},
+                        {subproductsID:'29',subproductName:'Alebela Onion',price:'6'},
+                        {subproductsID:'30',subproductName:'Washington Potato',price:'7'},
+                        {subproductsID:'31',subproductName:'Alebela Potato',price:'7'}
+                        
+                        ]}
+            ]
+            }
+
+]
+}
+]
+    
