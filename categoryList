@@ -77,7 +77,7 @@
         
         {
         "productName":"Lemon , Ginger & Garlic",
-        "productId":"11",
+        "productId":"17",
         "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","price":"2"},
         {"subproductId":"23","subproductName":"Washington Onion","price":"4"},
         {"subproductId":"24","subproductName":"Alebela Onion","price":"6"},
@@ -86,7 +86,7 @@
         
         ]},{
         "productName":"Indian & Exotic Herb",
-        "productId":"12",
+        "productId":"18",
         "subProducts":[
         {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
         {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -103,7 +103,7 @@
             
             {
             "productName":"Banana, Sapota & Papaya",
-            "productId":"11",
+            "productId":"19",
             "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","price":"2"},
             {"subproductId":"23","subproductName":"Washington Onion","price":"4"},
             {"subproductId":"24","subproductName":"Alebela Onion","price":"6"},
@@ -112,7 +112,7 @@
             
             ]},{
             "productName":"Kiwi, Melon, Citrus Fruit",
-            "productId":"12",
+            "productId":"20",
             "subProducts":[
             {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
             {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -123,7 +123,7 @@
             ]},
             {
                 "productName":"Banana, Sapota & Papaya",
-                "productId":"11",
+                "productId":"21",
                 "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","price":"2"},
                 {"subproductId":"23","subproductName":"Washington Onion","price":"4"},
                 {"subproductId":"24","subproductName":"Alebela Onion","price":"6"},
@@ -132,7 +132,7 @@
                 
                 ]},{
                 "productName":"Kiwi, Melon, Citrus Fruit",
-                "productId":"12",
+                "productId":"22",
                 "subProducts":[
                 {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
                 {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -143,7 +143,7 @@
                 ]},
                 {
                     "productName":"Banana, Sapota & Papaya",
-                    "productId":"11",
+                    "productId":"23",
                     "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","price":"2"},
                     {"subproductId":"23","subproductName":"Washington Onion","price":"4"},
                     {"subproductId":"24","subproductName":"Alebela Onion","price":"6"},
@@ -152,7 +152,7 @@
                     
                     ]},{
                     "productName":"Mangoes",
-                    "productId":"12",
+                    "productId":"24",
                     "subProducts":[
                     {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
                     {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -163,7 +163,7 @@
                     ]},
                     {
                         "productName":"Fruit Baskets",
-                        "productId":"12",
+                        "productId":"25",
                         "subProducts":[
                         {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
                         {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -180,8 +180,8 @@
             "products":[
             
             {
-            "productName":"Banana, Sapota & Papaya",
-            "productId":"11",
+            "productName":"Very Fresh Banana, Sapota & Papaya",
+            "productId":"26",
             "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","price":"2"},
             {"subproductId":"23","subproductName":"Washington Onion","price":"4"},
             {"subproductId":"24","subproductName":"Alebela Onion","price":"6"},
@@ -190,7 +190,7 @@
             
             ]},{
             "productName":"Kiwi, Melon, Citrus Fruit",
-            "productId":"12",
+            "productId":"27",
             "subProducts":[
             {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
             {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -201,7 +201,7 @@
             ]},
             {
                 "productName":"Banana, Sapota & Papaya",
-                "productId":"11",
+                "productId":"28",
                 "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","price":"2"},
                 {"subproductId":"23","subproductName":"Washington Onion","price":"4"},
                 {"subproductId":"24","subproductName":"Alebela Onion","price":"6"},
@@ -210,7 +210,7 @@
                 
                 ]},{
                 "productName":"Kiwi, Melon, Citrus Fruit",
-                "productId":"12",
+                "productId":"29",
                 "subProducts":[
                 {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
                 {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -221,7 +221,7 @@
                 ]},
                 {
                     "productName":"Banana, Sapota & Papaya",
-                    "productId":"11",
+                    "productId":"30",
                     "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","price":"2"},
                     {"subproductId":"23","subproductName":"Washington Onion","price":"4"},
                     {"subproductId":"24","subproductName":"Alebela Onion","price":"6"},
@@ -230,7 +230,7 @@
                     
                     ]},{
                     "productName":"Mangoes",
-                    "productId":"12",
+                    "productId":"31",
                     "subProducts":[
                     {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
                     {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -241,7 +241,7 @@
                     ]},
                     {
                         "productName":"Fruit Baskets",
-                        "productId":"12",
+                        "productId":"32",
                         "subProducts":[
                         {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
                         {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -257,7 +257,7 @@
 },
 {
     "categoryId":"2",
-    "categoryName":"Fruits & vegetables",
+    "categoryName":"Oils & Shampoo",
     "subcategory":[{
     "subcategoryId":"2a",
     "subcategoryName":"Fruits Vegetables",
@@ -265,7 +265,7 @@
     
     {
     "productName":"Potato & Onion",
-    "productId":"11",
+    "productId":"33",
     "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","price":"2"},
     {"subproductId":"23","subproductName":"Washington Onion","price":"4"},
     {"subproductId":"24","subproductName":"Alebela Onion","price":"6"},
@@ -274,7 +274,7 @@
     
     ]},{
     "productName":"Cucumber & Capsicum",
-    "productId":"12",
+    "productId":"32",
     "subProducts":[
     {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2"},
     {"subproductId":"28","subproductName":"Washington Onion","price":"4"},
@@ -285,7 +285,7 @@
     ]},
     {
         "productName":"Beans, Brinjals & Okra",
-        "productId":"13",
+        "productId":"33",
         "subProducts":[{"subproductId":"32","subproductName":"Kashmeeri Onion","price":"2"},
         {"subproductId":"33","subproductName":"Washington Onion","price":"4"},
         {"subproductId":"34","subproductName":"Alebela Onion","price":"6"},
@@ -296,7 +296,7 @@
     
         {
             "productName":"Root Vegetables",
-            "productId":"14",
+            "productId":"34",
             "subProducts":[{"subproductId":"37","subproductName":"Kashmeeri Onion","price":"2"},
             {"subproductId":"38","subproductName":"Washington Onion","price":"4"},
             {"subproductId":"39","subproductName":"Alebela Onion","price":"6"},
@@ -307,7 +307,7 @@
         
     {
         "productName":"Beans, Brinjals & Okra",
-        "productId":"15",
+        "productId":"35",
         "subProducts":[{"subproductId":"42","subproductName":"Kashmeeri Onion","price":"2"},
         {"subproductId":"43","subproductName":"Washington Onion","price":"4"},
         {"subproductId":"44","subproductName":"Alebela Onion","price":"6"},
@@ -318,7 +318,7 @@
     
         {
             "productName":"Beans, Brinjals & Okra",
-            "productId":"16",
+            "productId":"36",
             "subProducts":[{"subproductId":"4","subproductName":"Kashmeeri Onion","price":"2"},
             {"subproductId":"33","subproductName":"Washington Onion","price":"4"},
             {"subproductId":"34","subproductName":"Alebela Onion","price":"6"},
