@@ -174,7 +174,7 @@
                         ]}
             ]
             },
-{
+  {
             "subcategoryId":"1d",
             "subcategoryName":"Fresh Fruits",
             "products":[
@@ -249,12 +249,14 @@
                         {"subproductId":"35","subproductName":"Washington Potato","price":"7"},
                         {"subproductId":"36","subproductName":"Alebela Potato","price":"7"}
                         
-                        ]}
-            ]
-            }
-
-]
-},
+                          
+                        
+                    ]}
+                ]
+                }
+    
+    ]
+    },
 {
     "categoryId":"2",
     "categoryName":"Oils & Shampoo",
@@ -499,13 +501,13 @@
                         {"subproductId":"30","subproductName":"Washington Potato","price":"7"},
                         {"subproductId":"31","subproductName":"Alebela Potato","price":"7"}
                         
-                        ]}
-            ]
-            }
-
-]
-}
-,
+                           
+                    ]}
+                ]
+                }
+    
+    ]
+    },
 {
     "categoryId":"3",
     "categoryName":"Fruits & vegetables",
@@ -762,6 +764,4 @@
             }
 
 ]
-}
-]
-    
+}]
