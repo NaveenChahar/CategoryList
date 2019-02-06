@@ -33,8 +33,8 @@
         "productName":"Beans, Brinjals & Okra",
         "subProducts":[{"subproductId":"32","subproductName":"Kashmeeri Onion","price":"2"},
         {"subproductId":"33","subproductName":"Washington Onion","price":"4"},
-        {"subproductId":"34","subproductName":"Alebela Onion","price":"6"},
-        {"subproductId":"35","subproductName":"Washington Potato","price":"7"},
+        {"subproductId":"34","subproductName":"Alebela Onion","price":"68"},
+        {"subproductId":"35","subproductName":"Washington Potato","price":"77"},
         {"subproductId":"36","subproductName":"Alebela Potato","price":"7"}
         
         ]},
