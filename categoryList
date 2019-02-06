@@ -23,7 +23,7 @@
     "subProducts":[
     {"subproductId":"27","subproductName":"Kashmeeri Onion","price":"2",imageUrl:["http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false","http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"]},
     {"subproductId":"28","subproductName":"Washington Onion","price":"4",imageUrl:["http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false","http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"]},
-    {"subproductId":"29","subproductName":"Alebela Onion","price":"6",imageUrl:['http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false','http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg']},
+    {"subproductId":"29","subproductName":"Alebela Onion","price":"6",imageUrl:['http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false','http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"]},
     {"subproductId":"30","subproductName":"Washington Potato","price":"7",imageUrl:["http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false","http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"]},
     {"subproductId":"31","subproductName":"Alebela Potato","price":"7",imageUrl:["http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false","http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"]}
     
