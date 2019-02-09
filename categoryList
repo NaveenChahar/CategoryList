@@ -143,7 +143,8 @@
     {
          "productId":"13",    
         "productName":"Beans, Brinjals & Okra",
-        "subProducts":[{"subproductId":"32","subproductName":"Kashmeeri Onion","info":{
+        "subProducts":[
+          {"subproductId":"32","subproductName":"Kashmeeri Onion","info":{
             "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
             "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
             "priceAndAmount":[
@@ -202,7 +203,7 @@
             { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
             }]
             },
-            "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
         
         ]},
     
@@ -268,7 +269,7 @@
                 { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
                 }]
                 },
-                "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
             
             ]},
         
@@ -335,18 +336,73 @@
             { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
             }]
             },
-            "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
         ]},
     
         {
           "productId":"16",
             "productName":"Beans, Brinjals & Okra",
           
-            "subProducts":[{"subproductId":"4","subproductName":"Kashmeeri Onion","info":"2"},
-            {"subproductId":"33","subproductName":"Washington Onion","info":"4"},
-            {"subproductId":"34","subproductName":"Alebela Onion","info":"6"},
-            {"subproductId":"35","subproductName":"Washington Potato","info":"7"},
-            {"subproductId":"36","subproductName":"Alebela Potato","info":"7"}
+            "subProducts":[{"subproductId":"4","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"33","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"34","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"35","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"36","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
             
             ]}]
     },
@@ -360,22 +416,132 @@
           
         "productName":"Lemon , Ginger & Garlic",
       
-        "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","info":"2"},
-        {"subproductId":"23","subproductName":"Washington Onion","info":"4"},
-        {"subproductId":"24","subproductName":"Alebela Onion","info":"6"},
-        {"subproductId":"25","subproductName":"Washington Potato","info":"7"},
-        {"subproductId":"26","subproductName":"Alebela Potato","info":"7"}
+        "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+        {"subproductId":"23","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+        {"subproductId":"24","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+        {"subproductId":"25","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+        {"subproductId":"26","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
         
         ]},{
          "productId":"18",
         "productName":"Indian & Exotic Herb",
        
         "subProducts":[
-        {"subproductId":"27","subproductName":"Kashmeeri Onion","info":"2"},
-        {"subproductId":"28","subproductName":"Washington Onion","info":"4"},
-        {"subproductId":"29","subproductName":"Alebela Onion","info":"6"},
-        {"subproductId":"30","subproductName":"Washington Potato","info":"7"},
-        {"subproductId":"31","subproductName":"Alebela Potato","info":"7"}
+        {"subproductId":"27","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+        {"subproductId":"28","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+        {"subproductId":"29","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+        {"subproductId":"30","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+        {"subproductId":"31","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
         
         ]}]
         },
@@ -389,10 +555,54 @@
             "productName":"Banana, Sapota & Papaya",
            
             "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","info":"2"},
-            {"subproductId":"23","subproductName":"Washington Onion","info":"4"},
-            {"subproductId":"24","subproductName":"Alebela Onion","info":"6"},
-            {"subproductId":"25","subproductName":"Washington Potato","info":"7"},
-            {"subproductId":"26","subproductName":"Alebela Potato","info":"7"}
+            {"subproductId":"23","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"24","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"25","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"26","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
             
             ]},{
             
@@ -400,55 +610,330 @@
             "productName":"Kiwi, Melon, Citrus Fruit",
            
             "subProducts":[
-            {"subproductId":"27","subproductName":"Kashmeeri Onion","info":"2"},
-            {"subproductId":"28","subproductName":"Washington Onion","info":"4"},
-            {"subproductId":"29","subproductName":"Alebela Onion","info":"6"},
-            {"subproductId":"30","subproductName":"Washington Potato","info":"7"},
-            {"subproductId":"31","subproductName":"Alebela Potato","info":"7"}
+            {"subproductId":"27","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"28","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"29","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"30","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"31","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
             
             ]},
             {
              "productId":"21", 
                 "productName":"Banana, Sapota & Papaya",
                
-                "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","info":"2"},
-                {"subproductId":"23","subproductName":"Washington Onion","info":"4"},
-                {"subproductId":"24","subproductName":"Alebela Onion","info":"6"},
-                {"subproductId":"25","subproductName":"Washington Potato","info":"7"},
-                {"subproductId":"26","subproductName":"Alebela Potato","info":"7"}
+                "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                {"subproductId":"23","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                {"subproductId":"24","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                {"subproductId":"25","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                {"subproductId":"26","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
                 
                 ]},{
                    "productId":"22",
                 "productName":"Kiwi, Melon, Citrus Fruit",
              
                 "subProducts":[
-                {"subproductId":"27","subproductName":"Kashmeeri Onion","info":"2"},
-                {"subproductId":"28","subproductName":"Washington Onion","info":"4"},
-                {"subproductId":"29","subproductName":"Alebela Onion","info":"6"},
-                {"subproductId":"30","subproductName":"Washington Potato","info":"7"},
-                {"subproductId":"31","subproductName":"Alebela Potato","info":"7"}
+                {"subproductId":"27","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                {"subproductId":"28","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                {"subproductId":"29","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                {"subproductId":"30","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                {"subproductId":"31","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
                 
                 ]},
                 {
                  "productId":"23",
                     "productName":"Banana, Sapota & Papayaui",
                    
-                    "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","info":"2"},
-                    {"subproductId":"23","subproductName":"Washington Onion","info":"4"},
-                    {"subproductId":"24","subproductName":"Alebela Onion","info":"6"},
-                    {"subproductId":"25","subproductName":"Washington Potato","info":"7"},
-                    {"subproductId":"26","subproductName":"Alebela Potato","info":"7"}
+                    "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                    {"subproductId":"23","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                    {"subproductId":"24","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                    {"subproductId":"25","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                    {"subproductId":"26","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
                     
                     ]},{
                       "productId":"24",
                     "productName":"Mangoes",
                   
                     "subProducts":[
-                    {"subproductId":"27","subproductName":"Kashmeeri Onion","info":"2"},
-                    {"subproductId":"28","subproductName":"Washington Onion","info":"4"},
-                    {"subproductId":"29","subproductName":"Alebela Onion","info":"6"},
-                    {"subproductId":"30","subproductName":"Washington Potato","info":"7"},
-                    {"subproductId":"31","subproductName":"Alebela Potato","info":"7"}
+                    {"subproductId":"27","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                    {"subproductId":"28","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                    {"subproductId":"29","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                    {"subproductId":"30","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                    {"subproductId":"31","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
                     
                     ]},
                     {
@@ -456,11 +941,66 @@
                         "productName":"Fruit Baskets",
                       
                         "subProducts":[
-                        {"subproductId":"27","subproductName":"Kashmeeri Onion","info":"2"},
-                        {"subproductId":"28","subproductName":"Washington Onion","info":"4"},
-                        {"subproductId":"29","subproductName":"Alebela Onion","info":"6"},
-                        {"subproductId":"30","subproductName":"Washington Potato","info":"7"},
-                        {"subproductId":"31","subproductName":"Alebela Potato","info":"7"}
+                        {"subproductId":"27","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                        {"subproductId":"28","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                        {"subproductId":"29","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                        {"subproductId":"30","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+                        {"subproductId":"31","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
                         
                         ]}
             ]
@@ -474,11 +1014,66 @@
             "productId":"26",
             "productName":"Very Fresh Banana, Sapota & Papaya",
             
-            "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","info":"2"},
-            {"subproductId":"23","subproductName":"Washington Onion","info":"4"},
-            {"subproductId":"24","subproductName":"Alebela Onion","info":"6"},
-            {"subproductId":"25","subproductName":"Washington Potato","info":"7"},
-            {"subproductId":"26","subproductName":"Alebela Potato","info":"7"}
+            "subProducts":[{"subproductId":"22","subproductName":"Kashmeeri Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"23","subproductName":"Washington Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"24","subproductName":"Alebela Onion","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"25","subproductName":"Washington Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]},
+            {"subproductId":"26","subproductName":"Alebela Potato","info":{
+        "description":"lsdjlfsdkjflsdflsdlfsdkljflsdf",
+        "benefitsAndUses":"dlsjfldsjflsdjlfsdkfjldsjfsl",
+        "priceAndAmount":[
+        { "amount":"3", "suffix":"kg", "price":"50", "discount":"5%"
+        },
+        { "amount":"5", "suffix":"kg", "price":"70", "discount":"5%"
+        },
+        { "amount":"10", "suffix":"kg", "price":"100", "discount":"5%"
+        }]
+        },
+        "imageUrl":[{"index":"1" ,"uri":"http://www.bite.co.nz/images/recipes/Generic_Tomatoes1.jpg?width=1200&height=800&upscale=false"},{ "index":"1", "uri":"http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/4w/46/p04w46sp.jpg"}]}
             
             ]},{
                  "productId":"27",
